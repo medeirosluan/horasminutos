@@ -3,9 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilo/style.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="container">
+        <form>
+            <h1>Horas Minutos</h1>
+            <label for="horas">
+                Tempo:
+                <input type="number" id="tempos" required placeholder="Digite a Hora ou minutos">   
+            </label>
+                <label for="selecaoHoras">
+                    Horas:
+                    <input type="radio" name="horas" id="selecaoHoras">
+                </label>
+                <label for="selecaoMinutos">
+                    Minu:
+                    <input type="radio" name="horas" id="selecaoMinutos">
+                </label>
+                <input type="submit" value="Converte">
+            <h3></h3>
+        </form>
+    </div>
+    <script src="./javascript/script.js"></script>
 </body>
 </html>
