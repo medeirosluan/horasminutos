@@ -1,7 +1,7 @@
 const frm = document.querySelector('form')
 const msg = document.querySelector('h3')
 
-confirm('AVISO:\nAbaixo você ira selecionar uma das 2 opções abaixo HORAS / MINUTOS:\nCaso venha a selecionar Horas você estara convertendo Horas em minutos e caso selecione minutos ira converte em horas ')
+confirm('AVISO IMPORTANTE:\nAbaixo você tera que selecionar uma das 2 opções HORAS / MINUTOS:\nCaso venha a selecionar Horas você estara convertendo Horas em minutos e caso selecione minutos ira converte em horas ')
 
 frm.addEventListener('submit',(e) => {
     const tempo = Number(frm.tempos.value)
