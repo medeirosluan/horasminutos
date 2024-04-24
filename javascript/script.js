@@ -11,11 +11,11 @@ frm.addEventListener('submit',(e) => {
 
 
     if (selecao) {
-        resultado = tempo * 60
+        resultado = 60 * tempo
         msg.innerText = `${resultado} Minutos`
     } else {
 
-        resultado = tempo / 60 
+        resultado = 60 / tempo
         msg.innerText = `${resultado} Horas`
     }
 
